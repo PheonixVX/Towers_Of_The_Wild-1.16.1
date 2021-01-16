@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "totw",
+  "version": "${version}",
+  "name": "TOTW",
+  "description": "",
+  "authors": [
+    "Ender"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/TOTW/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.ender.towersofthewild.TowersOfTheWild"
+    ],
+    "modmenu": [
+      "io.github.ender.towersofthewild.ModMenuIntegration"
+    ]
+  },
+  "accessWidener" : "totw.accessWidener",
+  "mixins": [
+    "TOTW.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.1"
+  }
+}

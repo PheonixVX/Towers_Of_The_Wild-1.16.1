@@ -1,0 +1,3 @@
+accessWidener	v1	named
+accessible field net/minecraft/world/gen/feature/StructureFeature STRUCTURE_TO_GENERATION_STEP Ljava/util/Map;
+extendable method net/minecraft/world/gen/feature/StructureFeature method_27218 (Lnet/minecraft/world/gen/chunk/StructureConfig;JLnet/minecraft/world/gen/ChunkRandom;II)Lnet/minecraft/util/math/ChunkPos;
